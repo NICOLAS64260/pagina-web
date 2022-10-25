@@ -59,7 +59,9 @@ body {
     right: 50px;
 }
 
-#promos > div > img {
+/* PROMOCIONES */
+
+#promosimg {
     padding: 0px;
     background-color: aqua;
     min-width: 100%;
@@ -67,6 +69,29 @@ body {
     height: 300px;
 }
 
-#promos > div {
+#tablas > div {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+#tablas > div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#tablas > div > img {
+    padding: 50px;
+}
+
+/* COLORES */
+
+#imgdiseno {
+    padding: 0px;
     background-color: aqua;
+    min-width: 100%;
+    max-width: 100%;
+    height: 300px;
 }
