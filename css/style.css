@@ -131,7 +131,7 @@ h2 {
 #color2 {
     float: right;
     display: inline;
-    width: 49.6%;
+    width: calc(50% - 4px);
     padding: 0px;
     border: 2px solid black;
     padding: 0px;
@@ -140,7 +140,7 @@ h2 {
 #color1 {
     border: 2px solid black;
     float: left;
-    width: 49.6%;
+    width: calc(50% - 4px);
     display: inline;
     padding: 0px;
 }
