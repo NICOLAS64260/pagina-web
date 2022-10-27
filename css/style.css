@@ -25,12 +25,12 @@ body {
         padding: 8px;
     }
 
-    ul {
+    #unorder {
         padding: 10px;
         margin: 0px;
     }
 
-    ul li {
+    .lista {
         display: inline;
     }
 
@@ -100,6 +100,19 @@ h2 {
     text-align: center;
 }
 
+#color2 h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0%;
+    background-color: rgb(0, 64, 255);
+}
+#color1 h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0%;
+    background-color: rgb(0, 64, 255);
+}
+
 
 #COLORES > div > div > img {
     position: relative;
@@ -110,7 +123,7 @@ h2 {
 }
 
 .titulocolores {
-    font-size: 3em;
+    font-size: 2em;
     padding: 0%;
     margin: 0%;
 }
@@ -120,13 +133,11 @@ h2 {
     display: inline;
     width: 49.6%;
     padding: 0px;
-    background-color: aqua;
     border: 2px solid black;
     padding: 0px;
 }
 
 #color1 {
-    background-color: aqua;
     border: 2px solid black;
     float: left;
     width: 49.6%;
@@ -139,18 +150,30 @@ footer {
     background-color: rgb(9, 107, 193);
     color: aliceblue;
     padding: 0.50em;
-    font-size: 1em;
+    font-size: 1.5em;
 
+    height: 200px;
     bottom: 0px;
     width: calc(100% - 1em);
     z-index: 1;
+    display: flex;
 }
 
-iframe {
-    display: inline;
-    float: inline-end;
+#social ul li {
+    display: block;
+    padding: 7px;
 }
 
-footer div {
-    display: inline;
+.container {
+    margin-right: 40px;
+    top: 0%;
+    height: 2em;
+    width: 500px;
+}
+
+.containe {
+    top: 0%;
+    height: 2em;
+    width: 450px;
+    float: right;
 }
