@@ -7,6 +7,7 @@
         <meta name="description" content="Empresa de venta de productos de hogar y obra">
         <meta name="author" content="Nicolas Pereyra">
         <title>Colorshop</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/b07329e822.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./css/style.css">
     </head>
@@ -33,7 +34,7 @@
         </header>
 
         <section id="home">
-            <img src="img/IMAGEN HEROE 1RA.jpg" alt="heroe">
+            
         </section>
 
         <section id="promos">
@@ -58,7 +59,6 @@
         </section>
 
         <section id="COLORES">
-            <h2> Diseño de interiores </h2>
             <img src="img/DISEÑO DE INTERIORES IMAGEN GRANDE.png" alt="imagendediseño" id="imgdiseno">
         <div>
             <div id="color2">
@@ -82,13 +82,25 @@
             <div>
                 <img src="img/PRODUCTOS.png" alt="productos">
             </div>
-            <div>
-                <img src="/img/producto (1).jpg" alt="producto" height="500px">
-                <img src="/img/producto (2).jpg" alt="producto" height="500px">
-                <img src="/img/producto (3).jpg" alt="producto" height="500px">
-                <img src="/img/producto (4).jpg" alt="producto" height="500px">
-                <img src="/img/producto (5).jpg" alt="producto" height="500px">
-            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/producto10.png"  alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/PRODUCTO11.png"  alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+              </div>
         </section>
 
         <footer>
@@ -96,15 +108,15 @@
                 <ul>
                     <li>
                         <img src="img/social (1).png" alt="Logo" height="40px">
-                        <span> Item 1 </span>
+                        <span> Facebook </span>
                     </li>
                     <li>
                         <img src="img/social (2).png" alt="Logo" height="40px">
-                        <span> Item 2 </span>
+                        <span> Instagram </span>
                     </li>
                     <li>
                         <img src="img/social (3).png" alt="Logo" height="40px">
-                        <span> Item 3 </span>
+                        <span> Twitter </span>
                     </li>
                 </ul>
             </div >
@@ -114,7 +126,7 @@
             <div class="containe">
                 <ul>
                     <li>
-                        <img src="img/contactanos.png" alt="Logo" height="40px">
+                        <button type="button" class="btn btn-secondary btn-lg"><a href="./contacto.html">CONTACTANOS</a></button>
                     </li>
                     <li>
                         <span> TELEFONO: 656565656556 </span>
@@ -125,5 +137,6 @@
                 </ul>
             </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

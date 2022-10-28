@@ -5,15 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Contacto</h1>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sed voluptatum aliquid odio nulla quaerat, eaque accusamus minima, iure ipsam hic minus veniam? Modi doloremque, voluptates illum sapiente molestias accusamus?</p>
+    <header>
+        <img src= "img/LOGO SINTEPLAST.jpg" alt="Logo" height="40px">
+        <nav>
+            <ul id="unorder">
+                <li class="lista">
+                    <a href="#PRODUCTOS">PRODUCTOS</a>
+                </li>
+                <li class="lista">
+                    <a href="#COLORES">COLORES</a>
+                </li>
+                <li class="lista">
+                    <a href="#casos-exito">PUNTO DE VENTA</a>
+                </li>
+                <li class="lista">
+                    <a href="./contacto.html">QUIENES SOMOS?</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="img/ICON SHOP.png" alt="icono ventas" height="40px">
+    </header>
+
+    <main>
+        <h1> Contacto </h1>
+
+        <form action="" method="get">
+            <input type="hidden" name="token" value="adfasfd2184sdufjdodkokodajf9103jfas">
+
+            <fieldset>
+                <legend>
+                    Datos Personales
+                </legend>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" autofocus required placeholder="Ingrese su Nombre">
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" autocomplete required>
+
+                <label for="dni">Dni:</label>
+                <input type="number" name="dni" required>
+
+                
+                <label for="genero">Genero:</label>
+                <input type="radio" name="genero" value="m"> <span>Masculino</span>
+                <input type="radio" name="genero" value="f"> <span>Femenino</span>
+                <input type="radio" name="genero" value="o" checked> <span>Otro</span>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Otros
+                </legend>
+                
+                <label for="experiencia">A trabajado anteriormente en este rubro?:</label>
+                <input type="checkbox" name="experiencia" value="1">
+
+
+                <label for="proyecto">Adjunte su CV:</label>
+                <input type="file" name="curriculum" multiple>
+
+
+                <label for="texto">Escriba su mensaje</label>
+                <textarea name="texto" cols="170" rows="10"></textarea>
+            </fieldset>
+
     
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <div id="social" class="container">
+            <ul>
+                <li>
+                    <img src="img/social (1).png" alt="Logo" height="40px">
+                    <span> Facebook </span>
+                </li>
+                <li>
+                    <img src="img/social (2).png" alt="Logo" height="40px">
+                    <span> Instagram </span>
+                </li>
+                <li>
+                    <img src="img/social (3).png" alt="Logo" height="40px">
+                    <span> Twitter </span>
+                </li>
+            </ul>
+        </div >
+        <div id="frame" class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26428.497334378477!2d-59.05929196482041!3d-34.10635512378977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb0b6a92357b4d%3A0x5f7d9ac7c145085d!2sZ%C3%A1rate%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1663891087207!5m2!1ses!2sar" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="containe">
+            <ul>
+                <li>
+                    <img src="img/contactanos.png" alt="Logo" height="40px">
+                </li>
+                <li>
+                    <span> TELEFONO: 656565656556 </span>
+                </li>
+                <li>
+                    <span> CORREO: colorshop@gmail.com </span>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

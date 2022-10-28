@@ -12,7 +12,7 @@ body {
 
         position: fixed;
         top: 0px;
-        width: calc(100% - 1em);
+        width: 100%;
         z-index: 1;
     }
     header img {
@@ -41,23 +41,18 @@ body {
 
 #home {
     margin-top: 2em;
-    min-height: 100vh;
-    background-image: url('./../img/notebook.avif');
+    min-height: 75vh;
+    width: 100%;
+    background-image: url('./../img/IMAGEN\ HEROE\ 1RA.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+
+
     color: aliceblue;
 
     position: relative;
 }
 
-#home > div {
-    width: 400px;
 
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-}
 
 /* PROMOCIONES */
 
@@ -104,13 +99,13 @@ h2 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 0%;
-    background-color: rgb(0, 64, 255);
+    background-color: rgb(88, 119, 212);
 }
 #color1 h2 {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 0%;
-    background-color: rgb(0, 64, 255);
+    background-color: rgb(88, 119, 212);
 }
 
 
@@ -145,6 +140,9 @@ h2 {
     padding: 0px;
 }
 
+/* productos */
+
+
 /* FOOTER */
 footer {
     background-color: rgb(9, 107, 193);
@@ -154,7 +152,7 @@ footer {
 
     height: 200px;
     bottom: 0px;
-    width: calc(100% - 1em);
+    width: 100%;
     z-index: 1;
     display: flex;
 }
