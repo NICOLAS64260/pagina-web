@@ -45,6 +45,7 @@ body {
     width: 100%;
     background-image: url('./../img/IMAGEN\ HEROE\ 1RA.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 
 
     color: aliceblue;
